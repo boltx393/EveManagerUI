@@ -1,0 +1,50 @@
+/* CSS Reset */ 
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Global variables */
+:root {
+    --midnight-blue: rgb(13, 19, 29);
+    --space-gray: rgb(34, 43, 58);
+    --cool-gray: rgb(148, 153, 161);
+}
+
+body {
+    background: var(--midnight-blue);
+    min-height: 100vh;
+    height: 100vh;
+}
